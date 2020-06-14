@@ -6,8 +6,8 @@ public class DistinctNumbers {
     public static Scanner scn = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Problem URL : https://cses.fi/problemset/task/1621");
-        System.out.println("---------------------------------------------------");
+        //System.out.println("Problem URL : https://cses.fi/problemset/task/1621");
+        //System.out.println("---------------------------------------------------");
 
         int number = scn.nextInt();
         scn.nextLine();
@@ -18,7 +18,7 @@ public class DistinctNumbers {
             a[i] = Integer.parseInt(data[i]);
         }
 
-        System.out.println("distinct number: " + getDistinctNumber(a));
+        System.out.println(getDistinctNumber(a));
     }
 
     private static byte getDistinctNumber(int[] a) {
